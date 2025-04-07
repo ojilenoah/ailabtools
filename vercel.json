@@ -1,6 +1,19 @@
 {
-  "framework": "vite",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "routes": [
+    { 
+      "src": "/api/(.*)", 
+      "dest": "/index.js" 
+    },
+    { 
+      "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|gif|json)$)",
+      "dest": "/public/$1"
+    },
+    { 
+      "src": "/(.*)", 
+      "dest": "/public/index.html" 
+    }
   ]
 }
