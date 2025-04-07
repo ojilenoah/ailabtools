@@ -8,7 +8,7 @@ export function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <Link href="/">
-              <span className="text-2xl font-bold text-primary dark:text-blue-400 cursor-pointer">LabSimAI</span>
+              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400 cursor-pointer">LabAITools</span>
             </Link>
             <p className="text-gray-500 dark:text-gray-400 text-base">
               Transforming science education and research through AI-powered laboratory simulations.
@@ -71,7 +71,7 @@ export function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-200 dark:border-gray-700 pt-8">
           <p className="text-base text-gray-400 dark:text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} LabSimAI. All rights reserved.
+            &copy; {new Date().getFullYear()} LabAITools. All rights reserved.
           </p>
         </div>
       </div>
