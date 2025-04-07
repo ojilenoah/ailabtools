@@ -39,36 +39,36 @@ export function PlatformHighlights() {
       title: "LabXchange",
       description: "Harvard-developed platform offering free virtual lab simulations across biology, chemistry, and more.",
       url: "https://www.labxchange.org/",
-      colorClass: "bg-primary dark:bg-blue-700",
-      linkColorClass: "text-primary dark:text-blue-400"
+      colorClass: "bg-blue-600 dark:bg-blue-700",
+      linkColorClass: "text-blue-600 dark:text-blue-400"
     },
     {
       title: "PhET Interactive Simulations",
       description: "University of Colorado Boulder's interactive science simulations for physics, chemistry, biology, and more.",
       url: "https://phet.colorado.edu/",
-      colorClass: "bg-secondary dark:bg-green-700",
-      linkColorClass: "text-secondary dark:text-green-400"
+      colorClass: "bg-green-600 dark:bg-green-700",
+      linkColorClass: "text-green-600 dark:text-green-400"
     },
     {
       title: "ChemCollective",
       description: "Virtual chemistry labs and interactive learning materials from Carnegie Mellon University.",
       url: "http://chemcollective.org/",
-      colorClass: "bg-accent dark:bg-purple-700",
-      linkColorClass: "text-accent dark:text-purple-400"
+      colorClass: "bg-purple-600 dark:bg-purple-700",
+      linkColorClass: "text-purple-600 dark:text-purple-400"
     },
     {
       title: "Labster",
       description: "Advanced 3D virtual labs with gamified elements for engaging science education.",
       url: "https://www.labster.com/",
-      colorClass: "bg-blue-600 dark:bg-blue-800",
-      linkColorClass: "text-blue-600 dark:text-blue-400"
+      colorClass: "bg-indigo-600 dark:bg-blue-800",
+      linkColorClass: "text-indigo-600 dark:text-blue-400"
     },
     {
       title: "SimLab",
       description: "Professional laboratory simulation software for research and industrial applications.",
       url: "https://www.simlab-soft.com/",
-      colorClass: "bg-green-600 dark:bg-green-800",
-      linkColorClass: "text-green-600 dark:text-green-400"
+      colorClass: "bg-teal-600 dark:bg-green-800",
+      linkColorClass: "text-teal-600 dark:text-green-400"
     }
   ];
 

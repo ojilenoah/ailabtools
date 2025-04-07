@@ -33,19 +33,19 @@ export function FeaturesGrid() {
       icon: <FlaskConical className="h-6 w-6 text-white" />,
       title: "Virtual Lab Environments",
       description: "Access fully interactive laboratory spaces with realistic equipment and materials simulation.",
-      iconBgClass: "bg-primary dark:bg-blue-700"
+      iconBgClass: "bg-blue-600 dark:bg-blue-700"
     },
     {
       icon: <Settings className="h-6 w-6 text-white" />,
       title: "Experiment Design",
       description: "Create, modify, and save custom experimental protocols with intuitive design interfaces.",
-      iconBgClass: "bg-secondary dark:bg-green-700"
+      iconBgClass: "bg-green-600 dark:bg-green-700"
     },
     {
       icon: <BarChart3 className="h-6 w-6 text-white" />,
       title: "Data Analysis & Visualization",
       description: "Powerful tools to analyze experimental data, create visualizations, and export results.",
-      iconBgClass: "bg-accent dark:bg-purple-700"
+      iconBgClass: "bg-purple-600 dark:bg-purple-700"
     }
   ];
 

@@ -18,7 +18,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
-              <span className="text-xl font-bold text-primary dark:text-blue-400 cursor-pointer">LabSimAI</span>
+              <span className="text-xl font-bold text-blue-600 dark:text-blue-400 cursor-pointer">LabSimAI</span>
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
@@ -29,7 +29,7 @@ export function Navbar() {
             <Button 
               variant="ghost" 
               size="icon" 
-              className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-blue-400" 
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" 
               onClick={toggleMenu}
             >
               <Menu className="h-6 w-6" />
@@ -61,7 +61,7 @@ interface NavLinksProps {
 function NavLinks({ className, isMobile = false, onClick }: NavLinksProps) {
   const linkClass = isMobile
     ? "block py-2 px-3 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
-    : "text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-blue-400";
+    : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400";
 
   return (
     <div className={className}>

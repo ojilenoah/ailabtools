@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="text-center">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             <span className="block xl:inline">AI for Simulating</span>
-            <span className="block text-primary dark:text-blue-400 xl:inline"> Laboratory Experiments</span>
+            <span className="block text-blue-600 dark:text-blue-400 xl:inline"> Laboratory Experiments</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-gray-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             Explore, learn, and innovate in safe, virtual environments powered by intelligent simulation.
