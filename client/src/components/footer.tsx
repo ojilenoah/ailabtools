@@ -35,7 +35,7 @@ export function Footer() {
                 <ul className="mt-4 space-y-4">
                   <li>
                     <Link href="/">
-                      <a className="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer">Home</a>
+                      <span className="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer">Home</span>
                     </Link>
                   </li>
                   <li>
